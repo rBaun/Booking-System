@@ -16,12 +16,14 @@ namespace Server.Entities.HairSalon
         public int Id { get; set; }
         public string Name { get; set; }
         public string Information { get; set; }
+        public Store Store { get; set; }
 
-        public HairDresser(string name, string information, int id = 0)
+        public HairDresser(string name, string information, Store store, int id = 0)
         {
             Name = name;
             Information = information;
             Id = id;
+            Store = store;
         }
     }
 }
