@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Client.Services.Controllers
+namespace Server.Services.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
